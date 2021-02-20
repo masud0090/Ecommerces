@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
+*{
+	padding:0;
+	margin:0 auto;	
+}
+
+.clear
+{
+	overflow:hidden;
+}
+.right-img
+{
+	height:70vh;
+}
+
+.store-options
+{
+	padding:0.3rem 0.8rem;
+	color:black;
+	font-size:1.2rem;
+	border-radius:0.5rem;
+	border:2px solid #B29575;
+	margin:0 1rem;
+}
+.store-options:hover
+{
+	background-color:#EC4F53;
+	color:white;
+}
+
+.store-options-div
+{
+	text-align:center;
+}
+
+.card-image
+{
+	transition: all 1s ease-in-out;
+
+}
+
+.img-container:hover .card-image
+{
+	transform: scale(1.2);
+}
+.card-img-order-icon
+{
+  position: absolute;
+  bottom: 0;  
+  right: 0;  
+  padding: 0.5rem;
+  background: rgb(249, 228, 148);
+  border-top-left-radius: 1rem;
+  transition: all 1s ease-in-out;
+  transform: translate(100%, 100%);
+}
+.card-img-order-icon:hover
+{
+	background-color:#EC4F53;
+	color:white;
+}
+.card-img-order-icon i
+{
+	font-size:1.2rem;
+	margin-left:0.4rem;
+	margin-top:0.3rem;
+}
+.img-container:hover .card-img-order-icon
+{
+ transform: translate(0, 0);
+}
+.card-body
+{
+	width:100%;
+	color:#000000;
+}
+.name
+{
+	float:left;
+}
+.price
+{
+	float:right;
+}
+.ordered-already
+{
+	width:25%;
+	background-color:#576469;
+	float:right;
+	display:none;
+	padding-bottom:1rem;
+	
+}
+.list
+{
+	color:white;
+	display:flex;
+	width:30%; 
+	margin-top:1.2rem;
+	font-size:1.3rem;
+}
+.wholelist
+{
+	display:flex;
+	margin:0.5rem 0;
+}
+.listdelete
+{
+	width:10%;
+	margin-top:1.2rem;
+	margin-left:2.3rem;
+	color:#E00B47;
+	font-size:1.3rem;
+}
+.image
+{
+	width:30%;
+	height:40%;
+	border-radius: 50%;
+	border:2px solid white;
+	
+}
+.daam
+{
+	color:white;
+	width:5%;
+	margin-top:1.2rem;
+	font-size:1.3rem;
+	
+}
+#order-lists
+{
+	margin:1rem 0.7rem;
+}
+.myorderlists
+{
+	color:yellow;
+	font-size:2rem;
+	font-weight:bold;
+	text-align:center;
+	margin:1rem 0;
+}
+.carttotal
+{
+	display:flex;
+	justify-content:between;
+	margin:1rem 0;
+	color:yellow;
+}
+.cartbuttons
+{
+	margin:1rem 1rem;
+	padding-left:0.7rem;
+}
+.confirm
+{
+	float:left;
+	border-radius:50%;
+	font-size:1.2rem;
+	border:2px solid white;
+}
+.confirm:hover
+{
+	background-color:green;
+	color:white;
+	border:2px solid white;
+}
+.cancel
+{
+	float:right;
+	border-radius:50%;
+	font-size:1.2rem;
+	border:2px solid white;
+}
+.cancel:hover
+{
+	background-color:red;
+	color:white;
+	border:2px solid white;
+}
